@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BA5D8E1CCBEADD00C08DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA5D8D1CCBEADD00C08DFB /* AppDelegate.swift */; };
+		B6BA5D901CCBEADD00C08DFB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA5D8F1CCBEADD00C08DFB /* MasterViewController.swift */; };
+		B6BA5D921CCBEADD00C08DFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA5D911CCBEADD00C08DFB /* DetailViewController.swift */; };
+		B6BA5D951CCBEADD00C08DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BA5D931CCBEADD00C08DFB /* Main.storyboard */; };
+		B6BA5D971CCBEADD00C08DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BA5D961CCBEADD00C08DFB /* Assets.xcassets */; };
+		B6BA5D9A1CCBEADD00C08DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BA5D981CCBEADD00C08DFB /* LaunchScreen.storyboard */; };
+		B6BA5DA51CCBEADD00C08DFB /* GhostGearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA5DA41CCBEADD00C08DFB /* GhostGearTests.swift */; };
+		B6BA5DB01CCBEADD00C08DFB /* GhostGearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA5DAF1CCBEADD00C08DFB /* GhostGearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BA5DA11CCBEADD00C08DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BA5D821CCBEADD00C08DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BA5D891CCBEADD00C08DFB;
+			remoteInfo = GhostGear;
+		};
+		B6BA5DAC1CCBEADD00C08DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BA5D821CCBEADD00C08DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BA5D891CCBEADD00C08DFB;
+			remoteInfo = GhostGear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6BA5D8A1CCBEADD00C08DFB /* GhostGear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostGear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BA5D8D1CCBEADD00C08DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6BA5D8F1CCBEADD00C08DFB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B6BA5D911CCBEADD00C08DFB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B6BA5D941CCBEADD00C08DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6BA5D961CCBEADD00C08DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6BA5D991CCBEADD00C08DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6BA5D9B1CCBEADD00C08DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BA5DA01CCBEADD00C08DFB /* GhostGearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostGearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BA5DA41CCBEADD00C08DFB /* GhostGearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostGearTests.swift; sourceTree = "<group>"; };
+		B6BA5DA61CCBEADD00C08DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BA5DAB1CCBEADD00C08DFB /* GhostGearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostGearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BA5DAF1CCBEADD00C08DFB /* GhostGearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostGearUITests.swift; sourceTree = "<group>"; };
+		B6BA5DB11CCBEADD00C08DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BA5D871CCBEADD00C08DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5D9D1CCBEADD00C08DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5DA81CCBEADD00C08DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BA5D811CCBEADD00C08DFB = {
+			isa = PBXGroup;
+			children = (
+				B6BA5D8C1CCBEADD00C08DFB /* GhostGear */,
+				B6BA5DA31CCBEADD00C08DFB /* GhostGearTests */,
+				B6BA5DAE1CCBEADD00C08DFB /* GhostGearUITests */,
+				B6BA5D8B1CCBEADD00C08DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BA5D8B1CCBEADD00C08DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA5D8A1CCBEADD00C08DFB /* GhostGear.app */,
+				B6BA5DA01CCBEADD00C08DFB /* GhostGearTests.xctest */,
+				B6BA5DAB1CCBEADD00C08DFB /* GhostGearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BA5D8C1CCBEADD00C08DFB /* GhostGear */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA5D8D1CCBEADD00C08DFB /* AppDelegate.swift */,
+				B6BA5D8F1CCBEADD00C08DFB /* MasterViewController.swift */,
+				B6BA5D911CCBEADD00C08DFB /* DetailViewController.swift */,
+				B6BA5D931CCBEADD00C08DFB /* Main.storyboard */,
+				B6BA5D961CCBEADD00C08DFB /* Assets.xcassets */,
+				B6BA5D981CCBEADD00C08DFB /* LaunchScreen.storyboard */,
+				B6BA5D9B1CCBEADD00C08DFB /* Info.plist */,
+			);
+			path = GhostGear;
+			sourceTree = "<group>";
+		};
+		B6BA5DA31CCBEADD00C08DFB /* GhostGearTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA5DA41CCBEADD00C08DFB /* GhostGearTests.swift */,
+				B6BA5DA61CCBEADD00C08DFB /* Info.plist */,
+			);
+			path = GhostGearTests;
+			sourceTree = "<group>";
+		};
+		B6BA5DAE1CCBEADD00C08DFB /* GhostGearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA5DAF1CCBEADD00C08DFB /* GhostGearUITests.swift */,
+				B6BA5DB11CCBEADD00C08DFB /* Info.plist */,
+			);
+			path = GhostGearUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BA5D891CCBEADD00C08DFB /* GhostGear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BA5DB41CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGear" */;
+			buildPhases = (
+				B6BA5D861CCBEADD00C08DFB /* Sources */,
+				B6BA5D871CCBEADD00C08DFB /* Frameworks */,
+				B6BA5D881CCBEADD00C08DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GhostGear;
+			productName = GhostGear;
+			productReference = B6BA5D8A1CCBEADD00C08DFB /* GhostGear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6BA5D9F1CCBEADD00C08DFB /* GhostGearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BA5DB71CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGearTests" */;
+			buildPhases = (
+				B6BA5D9C1CCBEADD00C08DFB /* Sources */,
+				B6BA5D9D1CCBEADD00C08DFB /* Frameworks */,
+				B6BA5D9E1CCBEADD00C08DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BA5DA21CCBEADD00C08DFB /* PBXTargetDependency */,
+			);
+			name = GhostGearTests;
+			productName = GhostGearTests;
+			productReference = B6BA5DA01CCBEADD00C08DFB /* GhostGearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6BA5DAA1CCBEADD00C08DFB /* GhostGearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BA5DBA1CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGearUITests" */;
+			buildPhases = (
+				B6BA5DA71CCBEADD00C08DFB /* Sources */,
+				B6BA5DA81CCBEADD00C08DFB /* Frameworks */,
+				B6BA5DA91CCBEADD00C08DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BA5DAD1CCBEADD00C08DFB /* PBXTargetDependency */,
+			);
+			name = GhostGearUITests;
+			productName = GhostGearUITests;
+			productReference = B6BA5DAB1CCBEADD00C08DFB /* GhostGearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BA5D821CCBEADD00C08DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gerard Murphy";
+				TargetAttributes = {
+					B6BA5D891CCBEADD00C08DFB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B6BA5D9F1CCBEADD00C08DFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B6BA5D891CCBEADD00C08DFB;
+					};
+					B6BA5DAA1CCBEADD00C08DFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B6BA5D891CCBEADD00C08DFB;
+					};
+				};
+			};
+			buildConfigurationList = B6BA5D851CCBEADD00C08DFB /* Build configuration list for PBXProject "GhostGear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BA5D811CCBEADD00C08DFB;
+			productRefGroup = B6BA5D8B1CCBEADD00C08DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BA5D891CCBEADD00C08DFB /* GhostGear */,
+				B6BA5D9F1CCBEADD00C08DFB /* GhostGearTests */,
+				B6BA5DAA1CCBEADD00C08DFB /* GhostGearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BA5D881CCBEADD00C08DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BA5D9A1CCBEADD00C08DFB /* LaunchScreen.storyboard in Resources */,
+				B6BA5D971CCBEADD00C08DFB /* Assets.xcassets in Resources */,
+				B6BA5D951CCBEADD00C08DFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5D9E1CCBEADD00C08DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5DA91CCBEADD00C08DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BA5D861CCBEADD00C08DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BA5D921CCBEADD00C08DFB /* DetailViewController.swift in Sources */,
+				B6BA5D901CCBEADD00C08DFB /* MasterViewController.swift in Sources */,
+				B6BA5D8E1CCBEADD00C08DFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5D9C1CCBEADD00C08DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BA5DA51CCBEADD00C08DFB /* GhostGearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BA5DA71CCBEADD00C08DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BA5DB01CCBEADD00C08DFB /* GhostGearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6BA5DA21CCBEADD00C08DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BA5D891CCBEADD00C08DFB /* GhostGear */;
+			targetProxy = B6BA5DA11CCBEADD00C08DFB /* PBXContainerItemProxy */;
+		};
+		B6BA5DAD1CCBEADD00C08DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BA5D891CCBEADD00C08DFB /* GhostGear */;
+			targetProxy = B6BA5DAC1CCBEADD00C08DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6BA5D931CCBEADD00C08DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BA5D941CCBEADD00C08DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6BA5D981CCBEADD00C08DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BA5D991CCBEADD00C08DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BA5DB21CCBEADD00C08DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6BA5DB31CCBEADD00C08DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BA5DB51CCBEADD00C08DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GhostGear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6BA5DB61CCBEADD00C08DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GhostGear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGear";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6BA5DB81CCBEADD00C08DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GhostGearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostGear.app/GhostGear";
+			};
+			name = Debug;
+		};
+		B6BA5DB91CCBEADD00C08DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GhostGearTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostGear.app/GhostGear";
+			};
+			name = Release;
+		};
+		B6BA5DBB1CCBEADD00C08DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GhostGearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GhostGear;
+			};
+			name = Debug;
+		};
+		B6BA5DBC1CCBEADD00C08DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GhostGearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.air-watch.hackathon.GhostGearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GhostGear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BA5D851CCBEADD00C08DFB /* Build configuration list for PBXProject "GhostGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BA5DB21CCBEADD00C08DFB /* Debug */,
+				B6BA5DB31CCBEADD00C08DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BA5DB41CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BA5DB51CCBEADD00C08DFB /* Debug */,
+				B6BA5DB61CCBEADD00C08DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6BA5DB71CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BA5DB81CCBEADD00C08DFB /* Debug */,
+				B6BA5DB91CCBEADD00C08DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6BA5DBA1CCBEADD00C08DFB /* Build configuration list for PBXNativeTarget "GhostGearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BA5DBB1CCBEADD00C08DFB /* Debug */,
+				B6BA5DBC1CCBEADD00C08DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BA5D821CCBEADD00C08DFB /* Project object */;
+}
